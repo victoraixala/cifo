@@ -1,0 +1,76 @@
+body{
+
+}
+
+.form{
+    margin: auto;
+    position: relative;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+
+form{
+    opacity: .8;
+    vertical-align: middle;
+    background-color: #ddd;
+    border: 1px solid black;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+label{
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 5px 0;
+}
+
+.camp_form{
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: 0;
+}
+.inputs_100{
+    width: 100%;
+    padding: 10px 10px;
+}
+.inputs_50{
+    width: 50%;
+    padding: 10px 10px;
+    float: left;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+    margin: 10px;
+}
+
+p{
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+}
+
+p span:hover{
+    font-weight: bold;
+}
+
+.missatge{
+  color: red;
+}
+
+#frm_registre{
+    display: none;
+}
